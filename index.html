@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Lato&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4c9670dfeb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<div></div>
+    <div class="widget-container">
+        <div class="container-one">
+        <div class="row">
+          <div class="col-6">
+            <span class="city" id="city">XXXXXX</span>
+          </div>
+          <div class="col-6">
+          <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand"></a>
+            <form class="form-inline" id="input">
+              <input class="form-control mr-sm-2"  type="text" placeholder="Enter a city" autocomplete="off" autofocus="on" id="search-text-input">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="current">📍</button>
+            </form>
+          </nav>
+              </form>
+            </nav>
+            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <span class="temp" id="temp">XX</span><span class="units">
+              <a href="#" id="celsius">°C</a> |
+              <a href="#" id="fahrenheit">°F</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <ul class="info">
+              <li><span id="date">XXXX</span></li>
+              <li>Humidity: <span id="humid">XX</span> %</li>
+              <li>Wind speed: <span id="wind">XX</span> km/h</li>
+            </ul>
+          </div>
+          <div class="col-3">
+             
+          </div>
+      </div>
+
+      <div class="container-two">
+        <div class="row">
+          <div class="col">
+            <h3>XX/XX</h3>
+            <i class="fas fa-snowflake"></i>
+            <p><strong>XX ºC |</strong> XXºC</p>
+          </div>
+
+          <div class="col">
+            <h3>XX/XX</h3>
+            <i class="fas fa-cloud-showers-heavy"></i>
+            <p><strong>XX ºC |</strong> XXºC</p>
+          </div>
+
+          <div class="col">
+            <h3>XX/XX</h3>
+            <i class="fas fa-cloud-sun-rain"></i>
+            <p><strong>XX ºC |</strong> XXºC</p>
+          </div>
+
+          <div class="col">
+            <h3>XX/XX</h3>
+            <i class="fas fa-cloud-sun-rain"></i>
+            <p><strong>XX ºC |</strong> XXºC</p>
+          </div>
+
+          <div class="col">
+            <h3>XX/XX</h3>
+            <i class="fas fa-cloud-sun"></i>
+            <p><strong>XX ºC |</strong> XXºC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="url"><a href="https://github.com/annadpp/shecodes_proj2" target="_blank">Open-source coded</a> by Anna de Pablo Puig</p>
+  </div>
+          
+        <script src="index.js"></script>
+  </body>
+</html>
